@@ -1,4 +1,12 @@
-﻿using System;
+﻿// Enhancements: 
+// - Added leveling up system with experience points (XP) and levels.
+// - Introduced badges for reaching milestones, e.g., "Scripture Scholar" for reading scriptures 100 times.
+// - Fun messages and character progression (e.g., "Level 13 Ninja Unicorn").
+// - Additional goal types: ProgressiveGoal for incremental progress, NegativeGoal for losing points on bad habits, TimedGoal for goals with deadlines.
+// - Enhanced user interface with a colorful CLI and ASCII art.
+// - Daily streaks and bonuses for consistent goal completion.
+
+using System;
 using EternalQuest.Models;
 class Program
 {
